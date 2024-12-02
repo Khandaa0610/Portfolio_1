@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <!-- <script defer src="galleryApp.js" type="module"></script> -->
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <h3>
+                DORJKHAND <span>DAVAA</span>
+            </h3>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dorjkhand Davaa</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.jpg" class="profile" alt="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello. I'm</p>
+            <h1 class="title">Dorjkhand Davaa</h1>
+            <p class="section_text_p2">Self-taught Designer and Project coordinator</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contant Info
+                </button>
+            </div>
+            <!-- <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="" class="icon" onclick="location.href='https://linkedin.com'">
+                <img src="./assets/github.png" alt="" class="icon" onclick="location.href='https://github.com'">
+            </div> -->
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic2.jpg" alt="" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="" class="education">
+                        <h3>Education</h3>
+                        <p>
+                            A Bachelor of Arts (BA) in Art History from the National University of Mongolia
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="" class="icon">
+                        <h3>Experience</h3>
+                        <p>
+                            3+ years of project coordination on different projects
+                        </p>
+                        <p>
+                            Self-taught half-time designer
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Results-oriented professional with experience in project coordination, content management, and
+                        graphic design in the arts and digital sectors. Passionate about fostering creative initiatives
+                        t that enrich communities.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Photoshop</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Illustrator</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Lightroom</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Premiere</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Indesign</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Project Coordination</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Proposal Writing</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Fundraising</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Execution</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Project Planning</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Reporting</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="" onclick="location.href='./#projects'" class="icon arrow">
+    </section>
+
+    <section id="projects">
+        <div class="intro">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects of Coordination</h1>
+        </div>
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="./assets/img1.jpg" alt="">
+                    <div class="content">
+                        <p>Project Coordination</p>
+                        <h2>Ulaanbaatar International Media Art Festival</h2>
+                        <p>2023/2024</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img2.jpg" alt="">
+                    <div class="content">
+
+                        <h2>UBIMAF 2024</h2>
+                        <p class="desc">under the theme<br> "Seeing is Believing"</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img3.jpg" alt="">
+                    <div class="content">
+                        <p class="desc">
+                            In collaboration with curator Inge Seidler and 14 artists from seven different countries.
+                            <br><br>
+                            Main exhibition at The National Art Gallery of Mongolia from May 7 to 19, 2024.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img4.jpg" alt="">
+                    <div class="content">
+                        <p class="desc">
+                            Main exhibition at The National Art Gallery of Mongolia
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img5.jpg" alt="">
+                    <div class="content">
+                        <p class="desc">
+                            Main exhibition at the National Art Gallery of Mongolia
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img9.jpg" alt="">
+                    <div class="content">
+                        <h2>UBIMAF 2023</h2>
+                        <p class="desc">under the theme<br> "Montage"</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img10.jpg" alt="">
+                    <div class="content">
+                        <p class="desc">
+                            In collaboration with curator Chiu Chieh-Sen and 20 artists from six different countries.<br><br>
+                            Main exhibition at The Fine Arts Zanabazar Museum from May 23 to 30, 2023.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/img11.jpg" alt="">
+                    <div class="content">
+                        <p class="desc">
+                           Closing event of 360-degree projection at the White Rock Center 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev">&#60;</button>
+                <button id="next">&#62;</button>
+            </div>
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="./assets/img1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img10.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./assets/img11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="other">
+            <h1 class="title">
+                Other projects
+            </h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img6.jpg" alt="" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">SMArt photography residency</h2>
+                        <!-- <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Live Demo
+                            </button>
+                        </div> -->
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img7.jpg" alt="" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Shining Horses Grant</h2>
+                        <!-- <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Live Demo
+                            </button>
+                        </div> -->
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img8.jpg" alt="" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Khan Khongor Grants</h2>
+                        <!-- <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com">
+                                Live Demo
+                            </button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="design">
+        <div class="other">
+            <h1 class="title">
+                Design Works
+            </h1>
+            <img src="./assets/arrow.png" alt="" class="icon pro-arrow" onclick="location.href='./#contact'">
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <button class="image-item" data-modal="true" data-gallery="ubimaf"
+                        aria-label="Open ubimaf image gallery">
+                        <img src="./images/ubimaf/img1.jpg" alt="ubimaf">
+                    </button>
+                    <button class="image-item" data-modal="true" data-gallery="membership"
+                        aria-label="Open membership image gallery">
+                        <img src="./images/membership/img1.jpg" alt="membership">
+                    </button>
+                    <button class="image-item" data-modal="true" data-gallery="Nolur"
+                        aria-label="Open Nolur image gallery">
+                        <img src="./images/Nolur/img1.jpg" alt="Nolur">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="other">
+            <img src="./assets/arrow.png" alt="" class="icon pro-arrow" onclick="location.href='./#contact'">
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <button class="image-item" data-modal="true" data-gallery="other"
+                        aria-label="Open other image gallery">
+                        <img src="./images/other/img1.jpg" alt="other">
+                    </button>
+                    <button class="image-item" data-modal="true" data-gallery="design"
+                        aria-label="Open design image gallery">
+                        <img src="./images/design/img1.jpg" alt="design">
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="" class="icon contact-icon email-icon">
+                <p>
+                    <a href="mailto:khandaa0610@gmail.com"></a>
+                    khandaa0610@gmail.com
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/tel.png" alt="" class="icon contact-icon">
+                <p><a href="tel:97688222094"></a>
+                    +976 8822 2094
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>
+            Copyright &#169; 2024 Dorjkhand Davaa. All Rights Reserved.
+        </p>
+    </footer>
+    <script type="module">
+        import initGallery from "./js/galleryApp.js";
+        initGallery('./data/galleries.json', {
+          speed: 600,
+        })
+      </script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="./js/createModal.js"></script>
+    <script src="./js/galleryApp.js"></script>
+</body>
+
+</html>

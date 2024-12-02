@@ -1,0 +1,139 @@
+[
+  {
+    "name": "ubimaf",
+    "images": [
+      {
+        "src": "./images/ubimaf/img1.jpg",
+        "alt": "banana"
+      },
+      {
+        "src": "./images/ubimaf/img2.jpg",
+        "alt": "lemons"
+      },
+      {
+        "src": "./images/ubimaf/img3.jpg",
+        "alt": "cherries"
+      },
+      {
+        "src": "./images/ubimaf/img4.jpg",
+        "alt": "orange"
+      },
+      {
+        "src": "./images/ubimaf/img5.jpg",
+        "alt": "melon"
+      },
+      {
+        "src": "./images/ubimaf/img6.jpg",
+        "alt": "avocado"
+      },
+      {
+        "src": "./images/ubimaf/img7.jpg",
+        "alt": "blueberries"
+      }
+    ]
+  },
+  {
+    "name": "membership",
+    "images": [
+      {
+        "src": "./images/membership/img1.jpg",
+        "alt": "Mountain scene"
+      },
+      {
+        "src": "./images/membership/img2.jpg",
+        "alt": "Mountain scene"
+      },
+      {
+        "src": "./images/membership/img3.jpg",
+        "alt": "Mountain scene"
+      },
+      {
+        "src": "./images/membership/img5.jpg",
+        "alt": "Mountain scene"
+      }
+    ]
+  },
+  {
+    "name": "Nolur",
+    "images": [
+      {
+        "src": "./images/Nolur/img1.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/Nolur/img2.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/Nolur/img3.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/Nolur/img4.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/Nolur/img5.jpg",
+        "alt": "house plant"
+      }
+    ]
+  },
+  {
+    "name": "other",
+    "images": [
+      {
+        "src": "./images/other/img1.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/other/img2.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/other/img3.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/other/img4.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/other/img5.jpg",
+        "alt": "house plant"
+      }
+    ]
+  },
+  {
+    "name": "design",
+    "images": [
+      {
+        "src": "./images/design/img1.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img2.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img3.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img4.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img5.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img6.jpg",
+        "alt": "house plant"
+      },
+      {
+        "src": "./images/design/img7.jpg",
+        "alt": "house plant"
+      }
+    ]
+  }
+]
