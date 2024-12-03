@@ -796,3 +796,9 @@ footer p {
     letter-spacing: 3px !important;
     /* text-shadow: 1px 1px 1px gray; */
 }
+.desc1{
+    color: black !important;
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
+    /* text-shadow: 1px 1px 1px gray; */
+}
